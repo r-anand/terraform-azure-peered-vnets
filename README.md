@@ -11,9 +11,17 @@ As a security measure, you need to ensure that the onboarded user can only acces
 
 **Expected Deliverables:**
 
+**Step 1 Create Environment **
 1. Identify the networks
 2. Workload deployed to these networks
 3. Establishing the connectivity between these networks
-4. Onboard a user
-5. Create and assign a custom role to the user
+
+**Step 2 - User Onboarding **   
+5. Onboard a user(s)
+6. Create and assign a custom role to the user
+
+**Step 3 - Testing**
+7. Testing if user VM opersations
+  1. User can stop/restart vm
+  2. User cannot delete vm
 
