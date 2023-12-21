@@ -18,7 +18,7 @@ As a security measure, you need to ensure that the onboarded user can only acces
 5. Create and assign a custom role to the user
 
 
-## RandCorp - Solution Architecture
+## Solution Architecture
 
 ![Solution Architecture](./screenshots/01-%20randcorp-solution-architecture-in-azure.png)
 
