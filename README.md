@@ -1,4 +1,4 @@
-# terraform-azure-peered-vnets
+![image](https://github.com/r-anand/terraform-azure-peered-vnets/assets/6134697/67a4711c-35f2-4680-98f0-297348ef27b1)# terraform-azure-peered-vnets
 My Terraform project to create Azure Vnets. subnets, linux vms and vnet peerings.
 
 ## Description
@@ -57,10 +57,14 @@ As a security measure, you need to ensure that the onboarded user can only acces
 6. Create 2 Linux VMs in subnet(s)
 7. Validate above steps
 
-### Step 2 - GGGGG
+### Step 2 - Provision user, RBAC Role
+8. Create Users
+9. Create custom RBAC Role
+10. Assign role to user
+11. Validation
+- VALIDATE IF THE TEST USER CAN LOG IN TO THE AZURE PORTAL
+- VALIDATE IF THE TEST USER IS FORCED TO RESET THE PASSWORD ON THE FIRST LOGIN
+- VALIDATE IF TEST USER CAN VIEW VMS PER RBAC ROLE ASSIGNMENT
+- VALIDATE IF TEST USER CAN STOP VM  - EXPECTED RESULT – FAIL
+- VALIDATE IF TEST USER CAN RESTART VM  - EXPECTED RESULT - SUCCESS
 
-**Step 3 - Testing**
-
-7. Testing if user VM opersations
-   1. User can stop/restart vm
-   2. User cannot delete vm
