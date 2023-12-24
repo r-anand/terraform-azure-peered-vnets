@@ -62,9 +62,9 @@ As a security measure, you need to ensure that the onboarded user can only acces
 9. Create custom RBAC Role
 10. Assign role to user
 11. Validation
-- VALIDATE IF THE TEST USER CAN LOG IN TO THE AZURE PORTAL
-- VALIDATE IF THE TEST USER IS FORCED TO RESET THE PASSWORD ON THE FIRST LOGIN
-- VALIDATE IF TEST USER CAN VIEW VMS PER RBAC ROLE ASSIGNMENT
-- VALIDATE IF TEST USER CAN STOP VM  - EXPECTED RESULT – FAIL
-- VALIDATE IF TEST USER CAN RESTART VM  - EXPECTED RESULT - SUCCESS
+   a. Validate if the test user can log in to the azure portal
+   b. Validate if the test user is forced to reset the password on the first login
+   c. Validate if test user can view vms per rbac role assignment
+   d. Validate if test user can stop vm - expected result – fail
+   e. Validate if test user can restart vm - expected result - success
 
