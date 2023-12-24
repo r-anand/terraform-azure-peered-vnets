@@ -1,4 +1,4 @@
-![image](https://github.com/r-anand/terraform-azure-peered-vnets/assets/6134697/67a4711c-35f2-4680-98f0-297348ef27b1)# terraform-azure-peered-vnets
+# terraform-azure-peered-vnets
 My Terraform project to create Azure Vnets. subnets, linux vms and vnet peerings.
 
 ## Description
